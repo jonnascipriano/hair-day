@@ -28,14 +28,14 @@ export function hoursLoad({date}){
 
         li.textContent = hour
 
-        if(hour === "9:00"){
+        if(hour === "09:00"){
             hourHeaderAdd("Manhã")
         } else if (hour === "13:00"){
             hourHeaderAdd("Tarde")
         } else if (hour === "18:00"){
             hourHeaderAdd("Noite")
         }
-        
+
         hours.append(li)
     
     })
