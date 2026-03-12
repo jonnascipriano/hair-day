@@ -10,6 +10,7 @@ export async function schedulesDays(){
 
     // Busca na API os agendamentos
     const dailySchedules = await scheduleFetchByDay({date})
+
     console.log(dailySchedules)
 
     // Busca na API os agendamentos para carregar do lado direito da tela.
